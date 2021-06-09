@@ -19,7 +19,7 @@ function handleClickEvent() {
   // console.log(url);
   fetch(url)
     .then((response) => response.json())
-    .then((json) => (output.innerText = json.contents.text))
+    .then((json) => (output.innerText = json.contents.translated))
     .catch(handleError);
 }
 
