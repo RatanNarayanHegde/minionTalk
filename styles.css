@@ -9,6 +9,7 @@ body {
   padding: 0%;
   margin: 0;
   background-color: var(--backYellow);
+  font-family: "Mate SC", serif;
 }
 
 #input {
@@ -17,7 +18,8 @@ body {
   height: 100px;
   margin: auto;
   padding: 1rem;
-  color: var(--white);
+  color: var(--buttonBlack);
+  background-color: var(--white);
   border-radius: 20px;
 }
 
@@ -25,9 +27,16 @@ h1 {
   margin: 0%;
   margin-bottom: 1rem;
   text-align: center;
-  padding: 1rem;
+  padding-top: 1rem;
   color: var(--buttonBlack);
-  border-bottom: 2px solid var(--buttonBlack);
+}
+
+hr {
+  width: 60%;
+  color: var(--buttonBlack);
+  background-color: var(--buttonBlack);
+  border: 0.5px solid var(--buttonBlack);
+  margin-bottom: 1rem;
 }
 
 #btn-translate {
@@ -46,4 +55,13 @@ h1 {
   border: 1px solid black;
   margin: auto;
   padding: 1rem;
+  border-radius: 20px;
+  color: var(--buttonBlack);
+}
+
+#about {
+  display: block;
+  margin: auto;
+  margin-top: 4rem;
+  width: 60%;
 }
